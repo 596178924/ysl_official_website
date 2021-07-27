@@ -1,0 +1,24 @@
+// 按钮的边框
+
+// 圆形按钮
+@mixin mixin-radius-circular {
+	border-radius: 50%;
+}
+
+// 圆角按钮
+@mixin mixin-radius-4 {
+	border-radius: 0.25rem;
+}
+
+@mixin mixin-radius-8 {
+	border-radius: 0.5rem;
+}
+
+@mixin mixin-radius-16 {
+	border-radius: 1rem;
+}
+
+// 两边半圆 - 这个只要把数值设置特别大就可以实现了
+@mixin mixin-radius-lf {
+	border-radius: 100rem;
+}

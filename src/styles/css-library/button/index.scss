@@ -1,0 +1,10 @@
+@import "./size.scss";
+@import "./type.scss";
+@import "./hover.scss";
+@import "./border.scss";
+button {
+	cursor: pointer;
+	// border: #000000;
+	border: 0;
+	background-color: transparent;
+}

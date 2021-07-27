@@ -1,0 +1,8 @@
+@mixin mixin-size-small {
+	// font-size: .5em;
+	font-size: 9.6px;
+	padding: .25rem 0.75rem;
+}
+.size-small {
+	@include mixin-size-small;
+}

@@ -1,0 +1,9 @@
+@import "./variables.scss";
+
+
+@mixin mixin-button-success {
+	background-color: $success;
+}
+.button-success {
+	@include mixin-button-success;
+}
